@@ -1,0 +1,74 @@
+
+section	{
+	border: 4px double black;
+	margin: 10px auto ;
+	padding: 25px;
+	background-color:#fcfcfc;
+	width:70%;
+
+}
+
+body{
+	font-family: "Courier New";
+	}
+
+h1{
+	font-size:20px;
+	text-align:center;
+	color:#e8b5ff;
+}
+
+h2{
+	font-size:40px;
+	text-align:center;
+	color:#d2baff;
+	
+}
+
+h3{
+	font-size:30px;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:-5px;	
+	color:#b077ff;
+
+}
+
+nav{
+	text-align:center;
+	border-top:3px solid black;
+	border-bottom:1px solid black;
+	padding:20px;
+	line-height: 10px;
+	margin:auto;
+	width:80%;
+}
+
+a{
+	width:150px;
+	text-decoration: none;
+	color:#e8b5ff;
+	margin:30px;
+}
+
+p {
+	color:#be99ff;
+	text-align:center;
+}
+
+h1,h2 {
+	margin:-5px;
+}
+
+a:hover{
+	color:transparent;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
